@@ -171,15 +171,6 @@ export default async function HomePage({
           </div>
         </section>
 
-        {/* Adsterra native banner placeholder */}
-        <div
-          id="adsterra-native-banner"
-          className="w-full my-6 min-h-[90px] bg-blue-50 rounded-xl border border-blue-100 flex items-center justify-center text-gray-400 text-sm"
-          aria-hidden="true"
-        >
-          Advertisement
-        </div>
-
         {/* Main content: Gauge + Next Meeting */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           {/* Cut Probability Gauge */}
@@ -352,15 +343,6 @@ export default async function HomePage({
         </section>
       <AdsterraNativeBanner />
       <AdsterraDisplay />
-
-        {/* Adsterra Display Banner */}
-        <div
-          id="adsterra-display-banner"
-          className="w-[300px] h-[250px] bg-blue-50 rounded-xl border border-blue-100 flex items-center justify-center text-gray-400 text-sm mx-auto my-8"
-          aria-hidden="true"
-        >
-          Advertisement
-        </div>
       </div>
     </>
   );
