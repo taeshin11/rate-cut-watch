@@ -7,6 +7,9 @@ import RateChartWrapper from "./RateChartWrapper";
 import fedData from "@/data/fed-data-fallback.json";
 import indicatorsData from "@/data/indicators-fallback.json";
 
+import { AdsterraNativeBanner } from '@/components/ads/AdsterraNativeBanner';
+import { AdsterraDisplay } from '@/components/ads/AdsterraDisplay';
+
 export async function generateMetadata({
   params,
 }: {
@@ -347,6 +350,8 @@ export default async function HomePage({
             ))}
           </div>
         </section>
+      <AdsterraNativeBanner />
+      <AdsterraDisplay />
 
         {/* Adsterra Display Banner */}
         <div

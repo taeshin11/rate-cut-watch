@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  verification: {
+    google: "WddgcbVJsL2BGHNAje5m6DK56IcR0Mw5UOqozI2Xtrc",
+  },
   title: "RateCutWatch — Fed Rate Cut Probability Dashboard",
   description: "Track Federal Reserve rate cut probabilities, CPI trends, and FOMC meeting schedules in real time.",
 };
