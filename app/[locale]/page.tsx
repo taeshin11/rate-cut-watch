@@ -16,8 +16,8 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   return {
-    title: "RateCutWatch — Fed Rate Cut Probability Dashboard",
-    description: "Live probability, CPI trends, and macro events — free forever.",
+    title: "RateCutWatch — Fed Rate Cut Probability | Current Rate 3.875%",
+    description: "Fed funds rate 3.875% (3.75-4.00% target range). Track next FOMC cut probability, CPI 2.8%, PCE 2.6%, and 2026 meeting calendar. Free forever.",
   };
 }
 
