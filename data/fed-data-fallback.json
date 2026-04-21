@@ -1,17 +1,26 @@
 {
-  "currentRate": 4.25,
-  "targetRangeLow": 4.25,
-  "targetRangeHigh": 4.50,
-  "lastChange": "2024-12-18",
+  "currentRate": 3.875,
+  "targetRangeLow": 3.75,
+  "targetRangeHigh": 4.00,
+  "lastChange": "2025-12-10",
   "lastChangeAmount": -0.25,
   "meetings": [
+    {"date": "2025-01-29", "decision": "hold", "rate": 4.375},
     {"date": "2025-03-19", "decision": "hold", "rate": 4.375},
-    {"date": "2025-05-07", "decision": "TBD", "rate": null, "cutProbability": 0.12, "holdProbability": 0.88},
-    {"date": "2025-06-18", "decision": "TBD", "rate": null, "cutProbability": 0.34, "holdProbability": 0.66},
-    {"date": "2025-07-30", "decision": "TBD", "cutProbability": 0.58},
-    {"date": "2025-09-17", "decision": "TBD", "cutProbability": 0.72},
-    {"date": "2025-10-29", "decision": "TBD", "cutProbability": 0.81},
-    {"date": "2025-12-10", "decision": "TBD", "cutProbability": 0.89}
+    {"date": "2025-05-07", "decision": "hold", "rate": 4.375},
+    {"date": "2025-06-18", "decision": "hold", "rate": 4.375},
+    {"date": "2025-07-30", "decision": "hold", "rate": 4.375},
+    {"date": "2025-09-17", "decision": "cut", "rate": 4.125, "changeAmount": -0.25},
+    {"date": "2025-10-29", "decision": "hold", "rate": 4.125},
+    {"date": "2025-12-10", "decision": "cut", "rate": 3.875, "changeAmount": -0.25},
+    {"date": "2026-01-29", "decision": "hold", "rate": 3.875},
+    {"date": "2026-03-19", "decision": "hold", "rate": 3.875},
+    {"date": "2026-05-06", "decision": "TBD", "cutProbability": 0.30, "holdProbability": 0.70},
+    {"date": "2026-06-17", "decision": "TBD", "cutProbability": 0.45, "holdProbability": 0.55},
+    {"date": "2026-07-29", "decision": "TBD", "cutProbability": 0.50, "holdProbability": 0.50},
+    {"date": "2026-09-16", "decision": "TBD", "cutProbability": 0.55, "holdProbability": 0.45},
+    {"date": "2026-10-28", "decision": "TBD", "cutProbability": 0.60, "holdProbability": 0.40},
+    {"date": "2026-12-09", "decision": "TBD", "cutProbability": 0.65, "holdProbability": 0.35}
   ],
   "rateHistory": [
     {"date": "2022-03-16", "rate": 0.25},
@@ -28,9 +37,11 @@
     {"date": "2023-07-26", "rate": 5.375},
     {"date": "2024-09-18", "rate": 5.125},
     {"date": "2024-11-07", "rate": 4.875},
-    {"date": "2024-12-18", "rate": 4.375}
+    {"date": "2024-12-18", "rate": 4.375},
+    {"date": "2025-09-17", "rate": 4.125},
+    {"date": "2025-12-10", "rate": 3.875}
   ],
-  "cpi": {"current": 3.1, "core": 3.8, "lastUpdate": "2025-03-12"},
-  "pce": {"current": 2.5, "core": 2.8},
-  "unemployment": 4.1
+  "cpi": {"current": 2.8, "core": 3.1, "lastUpdate": "2026-04-10"},
+  "pce": {"current": 2.3, "core": 2.6},
+  "unemployment": 4.2
 }
